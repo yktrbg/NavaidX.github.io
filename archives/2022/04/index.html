@@ -1882,7 +1882,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.29233735.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1650302904957),
+    lastupdate: new Date(1650304409696),
     sidebar: {
       for_page: ["post","qgroup","category","guide","donate"],
       for_post: ["toc"],
@@ -3068,21 +3068,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <td align="left">小可爱</td>
 <td align="center">18</td>
 <td align="right">吃可爱多</td>
-<td align="center"><a href="mailto:&#108;&#x6f;&#x76;&#101;&#108;&#121;&#64;&#x74;&#101;&#115;&#x74;&#x2e;&#x63;&#111;&#x6d;">&#108;&#x6f;&#x76;&#101;&#108;&#121;&#64;&#x74;&#101;&#115;&#x74;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#108;&#x6f;&#118;&#101;&#108;&#121;&#64;&#x74;&#101;&#x73;&#116;&#46;&#x63;&#111;&#109;">&#108;&#x6f;&#118;&#101;&#108;&#121;&#64;&#x74;&#101;&#x73;&#116;&#46;&#x63;&#111;&#109;</a></td>
 <td align="center">18812345678</td>
 </tr>
 <tr>
 <td align="left">小小勇敢</td>
 <td align="center">20</td>
 <td align="right">爬棵勇敢树</td>
-<td align="center"><a href="mailto:&#98;&#114;&#97;&#x76;&#101;&#64;&#116;&#101;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;">&#98;&#114;&#97;&#x76;&#101;&#64;&#116;&#101;&#x73;&#116;&#x2e;&#99;&#x6f;&#109;</a></td>
+<td align="center"><a href="mailto:&#98;&#x72;&#97;&#x76;&#x65;&#x40;&#x74;&#101;&#115;&#x74;&#x2e;&#99;&#111;&#x6d;">&#98;&#x72;&#97;&#x76;&#x65;&#x40;&#x74;&#101;&#115;&#x74;&#x2e;&#99;&#111;&#x6d;</a></td>
 <td align="center">17712345678</td>
 </tr>
 <tr>
 <td align="left">小小小机智</td>
 <td align="center">22</td>
 <td align="right">看一本机智书</td>
-<td align="center"><a href="mailto:&#115;&#109;&#97;&#x72;&#116;&#64;&#116;&#x65;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;">&#115;&#109;&#97;&#x72;&#116;&#64;&#116;&#x65;&#x73;&#116;&#x2e;&#x63;&#111;&#x6d;</a></td>
+<td align="center"><a href="mailto:&#115;&#x6d;&#97;&#x72;&#x74;&#x40;&#x74;&#101;&#115;&#116;&#x2e;&#99;&#111;&#109;">&#115;&#x6d;&#97;&#x72;&#x74;&#x40;&#x74;&#101;&#115;&#116;&#x2e;&#99;&#111;&#109;</a></td>
 <td align="center">16612345678</td>
 </tr>
 </tbody></table>
@@ -4389,102 +4389,19 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
   <script>
-  volantis.layoutHelper("comments",`<div id="disqus_thread">
-    <div id="notShowDisqus" style="display: none;text-align: center;"><i class='fa-solid fa-exclamation-triangle'></i>&nbsp;无法加载 Disqus 评论系统，请确保您的网络能够正常访问。</div>
-    <div id="load-btns"><a class="load-comments" onclick="needLoadDisqus()">点击加载 Disqus 评论</a></div>
-    <div id="loading-comments" style="display: none"><i class="fa fa-cog fa-spin fa-fw fa-2x"></i><br>正在检查 Disqus 能否访问...</div>
-  </div>
-  `)
-
-  const disqus_shortname = "ew513";
-  const autoload = "false";
-  const global_url = "https://EW513.github.io"; //  must use an absolute URL; relative URLs won’t work.
-
-  function checkDisqus() {
-    // 正在检查 Disqus 能否访问...
-    const runcheck = (domain) => {
-      return new Promise((resolve, reject) => {
-        const img = new Image();
-        const timeout = setTimeout(() => {
-          img.onerror = img.onload = null;
-          reject();
-        }, 3000);
-        img.onerror = () => {
-          clearTimeout(timeout);
-          reject();
-        };
-        img.onload = () => {
-          clearTimeout(timeout);
-          resolve();
-        };
-        img.src = `https://${domain}/favicon.ico?${+new Date()}=${+new Date()}`;
-      });
-    };
-    return Promise.all([
-      runcheck("ew513.disqus.com"),
-    ]).then(loadDisqus, showError);
-  }
-
-  function loadDisqus() {
-    let path = pdata.commentPath;
-    if (path.length == 0) {
-      let defaultPath = "/";
-      path = defaultPath || decodeURI(window.location.pathname);
-    }
-    if (window.DISQUS) {
-      window.DISQUS.reset({
-        reload: true,
-        config() {
-          this.page.identifier = global_url + path;
-          this.page.url = global_url + path;
-        },
-      });
-    } else {
-      window.disqus_config = function () {
-        this.page.url = global_url + path;
-        this.page.identifier = global_url + path;
-      };
-      let d = document,
-        s = d.createElement("script");
-      s.async = true;
-      s.src = "//" + disqus_shortname + ".disqus.com/embed.js";
-      s.setAttribute("data-timestamp", +new Date());
-      (d.head || d.body).appendChild(s);
-    }
-  }
-
-  // 加载错误
-  function showError() {
-    volantis.dom.$(document.getElementById("loading-comments")).hide();
-    volantis.dom.$(document.getElementById("notShowDisqus")).show();
-  }
-
-  // 点击了加载
-  function needLoadDisqus() {
-    checkDisqus();
-    volantis.dom.$(document.getElementById("load-btns")).hide();
-    volantis.dom.$(document.getElementById("loading-comments")).show();
-  }
-
-  // pjax 重载
-  function pjax_disqus() {
-    // 排除当前页面不存在评论框的情形
-    if (!document.getElementById("disqus_thread")) return;
-    // 如果 DISQUS 已被实例化，则可直接加载
-    if (window.DISQUS) {
-      volantis.dom.$(document.getElementById("load-btns")).hide();
-      volantis.dom.$(document.getElementById("notShowDisqus")).hide();
-      volantis.dom.$(document.getElementById("loading-comments")).hide();
-      loadDisqus();
-    } else if (autoload == "true") {
-      // 设置自动加载但是上个页面加载失败了
-      needLoadDisqus();
-    }
-  }
-  if (autoload == "true") {
-    needLoadDisqus();
-  }
-  volantis.pjax.push(pjax_disqus);
+  volantis.layoutHelper("comments",`<div id="lv-container" data-id="city" data-uid="MTAyMC81NjEzNi8zMjU5OQ==">
+  <noscript><div><i class='fa-solid fa-exclamation-triangle'>&nbsp;无法加载 Livere 评论系统，请确保您的网络能够正常访问。</div></noscript>
+</div>`)
+</script>
+<script data-pjax type="text/javascript">
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
 </script>
 
 
@@ -4785,7 +4702,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
   <script>
-  let imgs = ["https://s2.loli.net/2022/04/18/45ZTtx8eXGFfMm1.jpg","https://s2.loli.net/2022/04/18/y4qXm2rehWau9B6.jpg","https://s2.loli.net/2022/04/18/Oc9XNHwG4BIbVAD.jpg","https://s2.loli.net/2022/04/18/w5ENrpBqJgHnKDz.jpg","https://s2.loli.net/2022/04/18/Ry4oTtjPKOW1p6e.png","https://s2.loli.net/2022/04/18/N8e1pP7YakhSVRI.jpg","https://s2.loli.net/2022/04/18/s6gCQRbfTeHEwc8.jpg","https://s2.loli.net/2022/04/18/8xtdhO7lnofq2D5.jpg","https://s2.loli.net/2022/04/18/Xx9eTSAoaVwRDzQ.png","https://s2.loli.net/2022/04/18/elU1gRrLkBsHCz5.png","https://s2.loli.net/2022/04/18/FNHcW2wSOALsiCq.jpg"];
+  let imgs = ["https://s2.loli.net/2022/04/18/Xx9eTSAoaVwRDzQ.png","https://s2.loli.net/2022/04/18/y4qXm2rehWau9B6.jpg","https://s2.loli.net/2022/04/18/8xtdhO7lnofq2D5.jpg","https://s2.loli.net/2022/04/18/Oc9XNHwG4BIbVAD.jpg","https://s2.loli.net/2022/04/18/elU1gRrLkBsHCz5.png","https://s2.loli.net/2022/04/18/FNHcW2wSOALsiCq.jpg","https://s2.loli.net/2022/04/18/Ry4oTtjPKOW1p6e.png","https://s2.loli.net/2022/04/18/s6gCQRbfTeHEwc8.jpg","https://s2.loli.net/2022/04/18/N8e1pP7YakhSVRI.jpg","https://s2.loli.net/2022/04/18/w5ENrpBqJgHnKDz.jpg","https://s2.loli.net/2022/04/18/45ZTtx8eXGFfMm1.jpg"];
   let index = 0;
   let IntervalParallax = null;
 
