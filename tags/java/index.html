@@ -24,7 +24,7 @@
   <!-- Custom Files headBegin begin-->
   
   <!-- Custom Files headBegin end-->
-  <link rel="preload" href="/css/style.103f9fc9.css" as="style">
+  <link rel="preload" href="/css/style.29233735.css" as="style">
   <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/Dosis/Dosis-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 <link rel="preload" href="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/fonts/Dosis/Dosis-Medium.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
@@ -1800,8 +1800,8 @@ ul.list-v >li>a:hover {
 }
 
   </style>
-  <link rel="stylesheet" href="/css/style.103f9fc9.css" media="print" onload="this.media='all';this.onload=null">
-  <noscript><link rel="stylesheet" href="/css/style.103f9fc9.css"></noscript>
+  <link rel="stylesheet" href="/css/style.29233735.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="/css/style.29233735.css"></noscript>
     <script>
       let userColorScheme=localStorage.getItem("color-scheme")
       if(userColorScheme){
@@ -1879,9 +1879,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   volantis.GLOBAL_CONFIG ={
     debug: false,
-    cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.103f9fc9.css"}},
+    cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.29233735.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1657043104732),
+    lastupdate: new Date(1657045175041),
     sidebar: {
       for_page: ["blogger","guide","post","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -4051,29 +4051,42 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="text/javascript">
-  volantis.layoutHelper("comments",`<div id="gitalk-container"></div>`)
-  function pjax_gitalk() {
-    if(!document.querySelector("#gitalk-container"))return;
-    let path = pdata.commentPath;
-    if (path.length == 0) {
-      let defaultPath = '';
-      path = defaultPath || decodeURI(window.location.pathname);
-    }
-    if (document.getElementById('gitalk-container') != null) {
-      var gitalk = new Gitalk(
-        Object.assign(
-          Object.assign({"js":"https://npm.elemecdn.com/gitalk@1/dist/gitalk.min.js","clientID":"e7518fa1780fd631b1b3","clientSecret":"2196add59dc75135c553ec875df9b130ea05b3bf","repo":"ew513.github.io","owner":"EW513","admin":"EW513","path":null,"enable":true,"ClientID":"e7518fa1780fd631b1b3","ClientSecret":"2196add59dc75135c553ec875df9b130ea05b3bf","labels":"gitalk","distractionFreeMode":true}, {
-            id: path,
-            distractionFreeMode: false  // Facebook-like distraction free mode
-          }),
-        pdata.commentConfig)
-      );
-      gitalk.render('gitalk-container');
+  
+<script src="https://cdn.jsdelivr.net/gh/vuejs/vue@2.6.11/dist/vue.runtime.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/meteorlxy/vssue@1.4.4/packages/vssue/dist/vssue.github.min.js"></script>
+<script>
+  volantis.css("https://cdn.jsdelivr.net/gh/meteorlxy/vssue@1.4.4/packages/vssue/dist/vssue.min.css");
+  function fancybox_vssue() {
+    if(typeof VolantisFancyBox === "undefined") {
+      const checkFancyBox = setInterval(() => {
+        if(typeof VolantisFancyBox === "undefined") return;
+        clearInterval(checkFancyBox);
+        VolantisFancyBox.bind('#vssue .vssue-comment-main img');
+      })
+    } else {
+      VolantisFancyBox.bind('#vssue .vssue-comment-main img');
     }
   }
-  volantis.js('https://npm.elemecdn.com/gitalk@1/dist/gitalk.min.js').then(pjax_gitalk)
-  volantis.pjax.push(pjax_gitalk);
+</script>
+<script data-pjax>
+  volantis.layoutHelper("comments",`<div id="vssue"></div>`);
+  new Vue({
+    el: '#vssue',
+    render: h => h('Vssue', {
+      props: {
+        title: "undefined - Neo-Torifune",
+        options: {
+          owner: 'EW513',
+          repo: 'ew513.github.io',
+          clientId: 'e7518fa1780fd631b1b3',
+          clientSecret: '2196add59dc75135c553ec875df9b130ea05b3bf',
+          prefix: '',
+          autoCreateIssue: true,
+        },
+      }
+    })
+  })
+  fancybox_vssue();
 </script>
 
 
