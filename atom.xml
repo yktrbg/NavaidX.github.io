@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>EW513的部落阁</title>
+  <title>Navaid</title>
   
   
-  <link href="https://ew513.github.io/atom.xml" rel="self"/>
+  <link href="https://makinairisu.github.io/atom.xml" rel="self"/>
   
-  <link href="https://ew513.github.io/"/>
+  <link href="https://makinairisu.github.io/"/>
   <updated>2022-07-17T15:30:00.378Z</updated>
-  <id>https://ew513.github.io/</id>
+  <id>https://makinairisu.github.io/</id>
   
   <author>
     <name>Eaton Wang</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Python环境搭建</title>
-    <link href="https://ew513.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    <id>https://ew513.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
+    <link href="https://makinairisu.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>https://makinairisu.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
     <published>2022-07-17T02:33:57.000Z</published>
     <updated>2022-07-17T15:30:00.378Z</updated>
     
@@ -30,19 +30,19 @@
     
     
     
-    <category term="Python" scheme="https://ew513.github.io/categories/Python/"/>
+    <category term="Python" scheme="https://makinairisu.github.io/categories/Python/"/>
     
     
-    <category term="VScode" scheme="https://ew513.github.io/tags/VScode/"/>
+    <category term="VScode" scheme="https://makinairisu.github.io/tags/VScode/"/>
     
-    <category term="Python" scheme="https://ew513.github.io/tags/Python/"/>
+    <category term="Python" scheme="https://makinairisu.github.io/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客搭建与心得</title>
-    <link href="https://ew513.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/"/>
-    <id>https://ew513.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/</id>
+    <link href="https://makinairisu.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/"/>
+    <id>https://makinairisu.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/</id>
     <published>2022-07-12T01:54:39.000Z</published>
     <updated>2022-07-17T16:26:30.541Z</updated>
     
@@ -53,17 +53,17 @@
     
     
     
-    <category term="博客" scheme="https://ew513.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客" scheme="https://makinairisu.github.io/categories/%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Hexo" scheme="https://ew513.github.io/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://makinairisu.github.io/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>VScode搭建Markdown环境</title>
-    <link href="https://ew513.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/"/>
-    <id>https://ew513.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/</id>
+    <link href="https://makinairisu.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/"/>
+    <id>https://makinairisu.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/</id>
     <published>2022-07-09T11:47:49.000Z</published>
     <updated>2022-07-10T01:17:54.370Z</updated>
     
@@ -74,19 +74,19 @@
     
     
     
-    <category term="VScode" scheme="https://ew513.github.io/categories/VScode/"/>
+    <category term="VScode" scheme="https://makinairisu.github.io/categories/VScode/"/>
     
     
-    <category term="VScode" scheme="https://ew513.github.io/tags/VScode/"/>
+    <category term="VScode" scheme="https://makinairisu.github.io/tags/VScode/"/>
     
-    <category term="Markdown" scheme="https://ew513.github.io/tags/Markdown/"/>
+    <category term="Markdown" scheme="https://makinairisu.github.io/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>VScode更改背景图片</title>
-    <link href="https://ew513.github.io/2022/07/09/VScode%E6%9B%B4%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/"/>
-    <id>https://ew513.github.io/2022/07/09/VScode%E6%9B%B4%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/</id>
+    <link href="https://makinairisu.github.io/2022/07/09/VScode%E6%9B%B4%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/"/>
+    <id>https://makinairisu.github.io/2022/07/09/VScode%E6%9B%B4%E6%94%B9%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87/</id>
     <published>2022-07-09T09:58:07.000Z</published>
     <updated>2022-07-10T01:17:54.371Z</updated>
     
@@ -97,17 +97,17 @@
     
     
     
-    <category term="VScode" scheme="https://ew513.github.io/categories/VScode/"/>
+    <category term="VScode" scheme="https://makinairisu.github.io/categories/VScode/"/>
     
     
-    <category term="VScode" scheme="https://ew513.github.io/tags/VScode/"/>
+    <category term="VScode" scheme="https://makinairisu.github.io/tags/VScode/"/>
     
   </entry>
   
   <entry>
     <title>基础进制转换</title>
-    <link href="https://ew513.github.io/2022/07/03/%E5%9F%BA%E7%A1%80%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/"/>
-    <id>https://ew513.github.io/2022/07/03/%E5%9F%BA%E7%A1%80%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/</id>
+    <link href="https://makinairisu.github.io/2022/07/03/%E5%9F%BA%E7%A1%80%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/"/>
+    <id>https://makinairisu.github.io/2022/07/03/%E5%9F%BA%E7%A1%80%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2/</id>
     <published>2022-07-03T07:04:12.000Z</published>
     <updated>2022-07-10T01:17:54.373Z</updated>
     
@@ -118,19 +118,19 @@
     
     
     
-    <category term="算法" scheme="https://ew513.github.io/categories/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://makinairisu.github.io/categories/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="基础" scheme="https://ew513.github.io/categories/%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80/"/>
+    <category term="基础" scheme="https://makinairisu.github.io/categories/%E7%AE%97%E6%B3%95/%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="Java" scheme="https://ew513.github.io/tags/Java/"/>
+    <category term="Java" scheme="https://makinairisu.github.io/tags/Java/"/>
     
   </entry>
   
   <entry>
     <title>进站须知</title>
-    <link href="https://ew513.github.io/2022/04/22/%E8%BF%9B%E7%AB%99%E9%A1%BB%E7%9F%A5/"/>
-    <id>https://ew513.github.io/2022/04/22/%E8%BF%9B%E7%AB%99%E9%A1%BB%E7%9F%A5/</id>
+    <link href="https://makinairisu.github.io/2022/04/22/%E8%BF%9B%E7%AB%99%E9%A1%BB%E7%9F%A5/"/>
+    <id>https://makinairisu.github.io/2022/04/22/%E8%BF%9B%E7%AB%99%E9%A1%BB%E7%9F%A5/</id>
     <published>2022-04-22T02:54:06.000Z</published>
     <updated>2022-08-25T02:11:28.424Z</updated>
     
@@ -146,8 +146,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://ew513.github.io/2022/04/17/hello-world/"/>
-    <id>https://ew513.github.io/2022/04/17/hello-world/</id>
+    <link href="https://makinairisu.github.io/2022/04/17/hello-world/"/>
+    <id>https://makinairisu.github.io/2022/04/17/hello-world/</id>
     <published>2022-04-17T03:56:12.194Z</published>
     <updated>2022-07-03T14:28:38.958Z</updated>
     
