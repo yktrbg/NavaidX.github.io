@@ -44,7 +44,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2023-01-12T06:49:15.000Z">
-<meta property="article:modified_time" content="2023-01-12T08:13:26.192Z">
+<meta property="article:modified_time" content="2023-01-12T11:09:51.923Z">
 <meta property="article:author" content="Eaton Wang">
 <meta property="article:tag" content="Java">
 <meta property="article:tag" content="PE">
@@ -1867,7 +1867,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.29233735.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1673514658997),
+    lastupdate: new Date(1673521830699),
     sidebar: {
       for_page: ["blogger","category","tagcloud","revolvermaps","webinfo"],
       for_post: ["toc"],
@@ -3163,7 +3163,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <p class="title">Navaid</p>
     
     
-      <p class="subtitle">Designed by Eyton [MakinaIrisu]</p>
+      <p class="subtitle">Design: Eyton [MakinaIrisu]  ·  Дизайн: Итон [Макина Ирису]</p>
     
   </div>
   <div class='bottom'>
@@ -3294,7 +3294,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：529 字</p>
+      <p>字数：721 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -3342,7 +3342,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p>这样我们就可以直接使用校园服务器的PE（Program Environment）了，下面就来实际操作一下。</p>
 <div class="note success"><p>建议先学习一定的Unix及命令行相关知识。</p></div>
 
-<h2 id="精简版"><a href="#精简版" class="headerlink" title="精简版"></a>精简版</h2><div class="story post-story"><h3 id="创建并激活SoC-Unix账户"><a href="#创建并激活SoC-Unix账户" class="headerlink" title="创建并激活SoC Unix账户"></a>创建并激活SoC Unix账户</h3><p>点击<a target="_blank" rel="noopener" href="https://mysoc.nus.edu.sg/~newacct/">此处</a>进入创建SoC Unix账户（SoC Unix account）。<br>点击<a target="_blank" rel="noopener" href="https://mysoc.nus.edu.sg/~myacct/services.cgi">此处</a>进入激活SoC Unix账户（SoC Unix account）。登录进去把里面的三个选项都enable了。</p>
+<h2 id="第一部分"><a href="#第一部分" class="headerlink" title="第一部分"></a>第一部分</h2><div class="story post-story"><h3 id="创建并激活SoC-Unix账户"><a href="#创建并激活SoC-Unix账户" class="headerlink" title="创建并激活SoC Unix账户"></a>创建并激活SoC Unix账户</h3><p>点击<a target="_blank" rel="noopener" href="https://mysoc.nus.edu.sg/~newacct/">此处</a>进入创建SoC Unix账户（SoC Unix account）。<br>点击<a target="_blank" rel="noopener" href="https://mysoc.nus.edu.sg/~myacct/services.cgi">此处</a>进入激活SoC Unix账户（SoC Unix account）。登录进去把里面的三个选项都enable了。</p>
 <h3 id="下载并安装命令行软件"><a href="#下载并安装命令行软件" class="headerlink" title="下载并安装命令行软件"></a>下载并安装命令行软件</h3><p>MAC：<br>使用自带Terminal</p>
 <div class="note download"><p><a target="_blank" rel="noopener" href="https://support.apple.com/en-sg/guide/terminal/welcome/mac">Terminal</a></p></div>
 <p>或下载安装</p>
@@ -3357,7 +3357,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <p>可以选择Save Login以保存自己的NUS NET账号。<br>保存完方案后输入NUS NET账户和密码就可以使用了。</p>
 <h3 id="使用SSH命令连接到REMOTE-HOST"><a href="#使用SSH命令连接到REMOTE-HOST" class="headerlink" title="使用SSH命令连接到REMOTE HOST"></a>使用SSH命令连接到REMOTE HOST</h3><p>在命令行（或Terminal、iTerm2）中输入以下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh &lt;username&gt;@&lt;hostname&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh username@hostname</span><br></pre></td></tr></table></figure>
 
 <p>将username替换成自己SoC Unix账户的用户名，hostname替换成pe112.comp.nus.edu.sg。（其中pe1xx也可以替换为pe111, pe112, pe113, pe114, pe117, pe118. pe119, pe120）<br>例：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh makina@pe112.comp.nus.edu.sg</span><br></pre></td></tr></table></figure>
@@ -3377,7 +3377,26 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Could not chdir to home directory /home/o/ooiwt: Permission denied</span><br></pre></td></tr></table></figure>
 
 <p>访问权限受限，这种情况比较少见。需要寻求SoC IT Unit的帮助。联系方式：<a target="_blank" rel="noopener" href="https://rt.comp.nus.edu.sg/%E3%80%82">https://rt.comp.nus.edu.sg/。</a></p>
+</div><h2 id="第二部分"><a href="#第二部分" class="headerlink" title="第二部分"></a>第二部分</h2><div class="story post-story"><h3 id="转移文件"><a href="#转移文件" class="headerlink" title="转移文件"></a>转移文件</h3><p>把本地文件传到pe host上。<br>例1（把lab01里所有.java结尾的文件上传）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp makina@pe112.comp.nus.edu.sg:~/lab01/*.java .</span><br></pre></td></tr></table></figure>
 
+<p>例2（把lab01里特定的一个.java文件上传）：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp Hello.java makina@pe112.comp.nus.edu.sg:~/lab01</span><br></pre></td></tr></table></figure>
+
+<h3 id="设置SSH-Keys"><a href="#设置SSH-Keys" class="headerlink" title="设置SSH Keys"></a>设置SSH Keys</h3><p>下面这个命令可以生成两个key，一个是private key：id_rsa（存放在本地-hidden ~&#x2F;.ssh directory），另一个是public key：id_rsa.pub（存放在pe host上）。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa</span><br></pre></td></tr></table></figure>
+
+<h4 id="用ssh-copy-id"><a href="#用ssh-copy-id" class="headerlink" title="用ssh-copy-id"></a>用ssh-copy-id</h4><p>如果你安装了ssh-copy-id，可以使用以下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-copy-id username@pe112.comp.nus.edu.sg</span><br></pre></td></tr></table></figure>
+
+<p>这里你需要再输入一次密码，之后就可以不输密码了。</p>
+<h4 id="用scp"><a href="#用scp" class="headerlink" title="用scp"></a>用scp</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys</span><br></pre></td></tr></table></figure>
+
+<h3 id="检查网络连接情况"><a href="#检查网络连接情况" class="headerlink" title="检查网络连接情况"></a>检查网络连接情况</h3><p>在pe里运行：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen</span><br></pre></td></tr></table></figure>
+
+<p>关闭显示：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">screen -r</span><br></pre></td></tr></table></figure>
 </div>
   </div>
   
@@ -3418,7 +3437,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-01-12T16:13:26+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-01-12T19:09:51+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>本页文档最后更新于：2023年1月12日</p>
@@ -3572,7 +3591,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
     <div class='content'>
-        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B2%BE%E7%AE%80%E7%89%88"><span class="toc-number">1.</span> <span class="toc-text">精简版</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E5%B9%B6%E6%BF%80%E6%B4%BBSoC-Unix%E8%B4%A6%E6%88%B7"><span class="toc-number">1.1.</span> <span class="toc-text">创建并激活SoC Unix账户</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BD%AF%E4%BB%B6"><span class="toc-number">1.2.</span> <span class="toc-text">下载并安装命令行软件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%B9%B6VPN%EF%BC%88%EF%BC%89"><span class="toc-number">1.3.</span> <span class="toc-text">下载安装并VPN（）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8SSH%E5%91%BD%E4%BB%A4%E8%BF%9E%E6%8E%A5%E5%88%B0REMOTE-HOST"><span class="toc-number">1.4.</span> <span class="toc-text">使用SSH命令连接到REMOTE HOST</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8A%A5%E9%94%99"><span class="toc-number">1.5.</span> <span class="toc-text">一些常见的报错</span></a></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E9%83%A8%E5%88%86"><span class="toc-number">1.</span> <span class="toc-text">第一部分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E5%B9%B6%E6%BF%80%E6%B4%BBSoC-Unix%E8%B4%A6%E6%88%B7"><span class="toc-number">1.1.</span> <span class="toc-text">创建并激活SoC Unix账户</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4%E8%A1%8C%E8%BD%AF%E4%BB%B6"><span class="toc-number">1.2.</span> <span class="toc-text">下载并安装命令行软件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%B9%B6VPN%EF%BC%88%EF%BC%89"><span class="toc-number">1.3.</span> <span class="toc-text">下载安装并VPN（）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8SSH%E5%91%BD%E4%BB%A4%E8%BF%9E%E6%8E%A5%E5%88%B0REMOTE-HOST"><span class="toc-number">1.4.</span> <span class="toc-text">使用SSH命令连接到REMOTE HOST</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8A%A5%E9%94%99"><span class="toc-number">1.5.</span> <span class="toc-text">一些常见的报错</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E9%83%A8%E5%88%86"><span class="toc-number">2.</span> <span class="toc-text">第二部分</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BD%AC%E7%A7%BB%E6%96%87%E4%BB%B6"><span class="toc-number">2.1.</span> <span class="toc-text">转移文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%BE%E7%BD%AESSH-Keys"><span class="toc-number">2.2.</span> <span class="toc-text">设置SSH Keys</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%A8ssh-copy-id"><span class="toc-number">2.2.1.</span> <span class="toc-text">用ssh-copy-id</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%94%A8scp"><span class="toc-number">2.2.2.</span> <span class="toc-text">用scp</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A3%80%E6%9F%A5%E7%BD%91%E7%BB%9C%E8%BF%9E%E6%8E%A5%E6%83%85%E5%86%B5"><span class="toc-number">2.3.</span> <span class="toc-text">检查网络连接情况</span></a></li></ol></li></ol>
     </div>
   </section>
 
@@ -4905,7 +4924,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid","url":"https://makinairisu.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://makinairisu.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://makinairisu.github.io/","name":"Navaid"}},{"@type":"ListItem","position":2,"item":{"@id":"https://makinairisu.github.io/categories/CS2030S/","name":"CS2030S"}},{"@type":"ListItem","position":3,"item":{"@id":"https://makinairisu.github.io/2023/01/12/PE-Program-Environment-简介及使用例/","name":"PE(Program Environment)简介及使用例"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"PE(Program Environment)简介及使用例","description":"我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。","datePublished":"2023-01-12T06:49:15.000Z","dateModified":"2023-01-12T08:13:26.192Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://makinairisu.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/"},"author":{"@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://makinairisu.github.io/"},"publisher":{"@type":"Organization","name":"Navaid","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://makinairisu.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/","wordCount":66,"articleSection":"CS2030S","keywords":"Java,PE","image":{"@type":"ImageObject","url":"https://i.postimg.cc/RVMrBqvt/4-A042276-AAD1373457-E9-F901155-AFE2-E.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid","url":"https://makinairisu.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://makinairisu.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://makinairisu.github.io/","name":"Navaid"}},{"@type":"ListItem","position":2,"item":{"@id":"https://makinairisu.github.io/categories/CS2030S/","name":"CS2030S"}},{"@type":"ListItem","position":3,"item":{"@id":"https://makinairisu.github.io/2023/01/12/PE-Program-Environment-简介及使用例/","name":"PE(Program Environment)简介及使用例"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"PE(Program Environment)简介及使用例","description":"我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。","datePublished":"2023-01-12T06:49:15.000Z","dateModified":"2023-01-12T11:09:51.923Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://makinairisu.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/"},"author":{"@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://makinairisu.github.io/"},"publisher":{"@type":"Organization","name":"Navaid","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://makinairisu.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/","wordCount":66,"articleSection":"CS2030S","keywords":"Java,PE","image":{"@type":"ImageObject","url":"https://i.postimg.cc/RVMrBqvt/4-A042276-AAD1373457-E9-F901155-AFE2-E.png","width":1024,"height":768}}]</script>
 
 
 
