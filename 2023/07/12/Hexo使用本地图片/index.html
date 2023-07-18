@@ -44,7 +44,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2023-07-11T18:23:52.000Z">
-<meta property="article:modified_time" content="2023-07-18T06:47:40.920Z">
+<meta property="article:modified_time" content="2023-07-18T06:57:07.907Z">
 <meta property="article:author" content="Eaton Wang">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -1866,7 +1866,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1689663197812),
+    lastupdate: new Date(1689663472718),
     sidebar: {
       for_page: ["blogger","category","tagcloud","revolvermaps","webinfo"],
       for_post: ["toc"],
@@ -3285,7 +3285,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     <div class='headimg-div'>
       <a class='headimg-a'>
-        <img itemprop="image" class='headimg' src=''/covers/2023-07-12.png''/>
+        <img itemprop="image" class='headimg' src='/covers/2023-07-12.png'/>
       </a>
     </div>
   
@@ -3339,7 +3339,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="new-meta-item wordcount">
     <a class='notlink'>
       <i class="fa-solid fa-keyboard fa-fw" aria-hidden="true"></i>
-      <p>字数：281 字</p>
+      <p>字数：273 字</p>
     </a>
   </div>
   <div class="new-meta-item readtime">
@@ -3410,9 +3410,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 <p>解决方案：</p>
 <p>在source文件夹下创建covers文件夹（文件夹名随意），里面存放封面图（heading）。<br>文章首部写入如下代码即可：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">headimg: &#x27;/covers/xxx.jpg&#x27;</span><br></pre></td></tr></table></figure>
-
-<p>或</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">headimg: &gt;-</span><br><span class="line">  &#x27;/covers/xxx.jpg&#x27;</span><br></pre></td></tr></table></figure>
 </div>
   </div>
   
@@ -3453,7 +3450,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-07-18T14:47:40+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-07-18T14:57:07+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>本页文档最后更新于：2023年7月18日</p>
@@ -4973,7 +4970,7 @@ window.matchMedia('(prefers-color-scheme: light)').addListener(darkModelListener
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2023/07/12/Hexo使用本地图片/","name":"Hexo使用本地图片"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo使用本地图片","description":"之前一直把图片存在图床上。但是，图床有时会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。","datePublished":"2023-07-11T18:23:52.000Z","dateModified":"2023-07-18T06:47:40.920Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2023/07/12/Hexo%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/"},"author":{"@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2023/07/12/Hexo%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/","wordCount":95,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"'/covers/2023-07-12.png'","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2023/07/12/Hexo使用本地图片/","name":"Hexo使用本地图片"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo使用本地图片","description":"之前一直把图片存在图床上。但是，图床有时会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。","datePublished":"2023-07-11T18:23:52.000Z","dateModified":"2023-07-18T06:57:07.907Z","inLanguage":["zh-CN","en","zh-HK","zh-TW","default"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2023/07/12/Hexo%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/"},"author":{"@type":"Person","name":"Eaton Wang","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2023/07/12/Hexo%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/","wordCount":95,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"/covers/2023-07-12.png","width":1024,"height":768}}]</script>
 
 
 
