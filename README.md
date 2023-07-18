@@ -1,1 +1,1 @@
-[Navaid · 柰蔚德](https://www.navaid.de/ "悬停显示")是基于hexo搭建的个人博客，使用Volantis作为主题。
+『[Navaid · 柰蔚德](https://www.navaid.de/ "点击进入")』是基于「[hexo](https://hexo.io/zh-cn/)」搭建的个人博客，使用「[Volantis](https://github.com/volantis-x/hexo-theme-volantis/)」作为主题。
