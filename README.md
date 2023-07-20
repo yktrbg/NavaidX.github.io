@@ -1,1 +1,1 @@
-『[Navaid · 柰蔚德](https://www.navaid.de/ "点击进入")』是基于「[hexo](https://hexo.io/zh-cn/)」搭建的个人博客，使用「[Volantis](https://github.com/volantis-x/hexo-theme-volantis/)」作为主题。
+『[Navaid · 柰蔚德](https://www.navaid.lovestoblog.com/ "点击进入")』是基于「[hexo](https://hexo.io/zh-cn/)」搭建的个人博客，使用「[Volantis](https://github.com/volantis-x/hexo-theme-volantis/)」作为主题。
