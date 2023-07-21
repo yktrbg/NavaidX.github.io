@@ -1863,7 +1863,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1689947444494),
+    lastupdate: new Date(1689957733155),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo"],
       for_post: ["toc"],
@@ -3663,7 +3663,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <div class="webinfo-item">
           <div>最后活动时间：</div>
-          <div id="last-update-show">2023-07-21 日</div> 
+          <div id="last-update-show">2023-07-22 日</div> 
         </div>
       
     </div>
@@ -3873,27 +3873,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
       
-        <p>本站使用 <a target="_blank" rel="noopener" href="https://github.com/volantis-x/hexo-theme-volantis/tree/dev">Volantis</a> 作为主题，您可以在 GitHub 找到<a target="_blank" rel="noopener" href="https://github.com/volantis-x/volantis-docs">本站源码</a>。</p>
-
-      
-    
-      
-        
-          <div><p><span>访问总量<span id="busuanzi_value_site_pv"></span>次</span> <span class="post-meta-divider">|</span> <span>总访客<span id="busuanzi_value_site_uv"></span>人</span></p>
-</div>
-        
-      
-    
-      
         
           <div><p>博客内容遵循 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
-</div>
-        
-      
-    
-      
-        
-          <div><p><a target="_blank" rel="noopener" href="https://icp.gov.moe/?keyword=20230495">萌ICP备20230495号</a></p>
 </div>
         
       
@@ -3906,6 +3887,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
     <!-- Custom Files footer begin-->
+    <script>
+      let currentUrl = window.location.href;
+      document.getElementById("current-url").innerHTML = currentUrl;
+      if (currentUrl.includes("navaid.rf.gd")) {
+        <a href="https://icp.gov.moe/?keyword=20230495" target="_blank">萌ICP备20230495号</a>
+      }
+    </script>
     
     <!-- Custom Files footer end-->
   </footer>
