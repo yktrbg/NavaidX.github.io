@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://navaidx.github.io/2023/07/20/hexo博客添加天气组件/"/>
+  <link rel="canonical" href="https://www.navaidx.rf.gd/2023/07/20/hexo博客添加天气组件/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -38,7 +38,7 @@
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo博客添加天气组件">
-<meta property="og:url" content="https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/index.html">
+<meta property="og:url" content="https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/index.html">
 <meta property="og:site_name" content="Navaid · 柰蔚德">
 <meta property="og:description" content="可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。">
 <meta property="og:locale" content="zh_CN">
@@ -1866,7 +1866,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690134869703),
+    lastupdate: new Date(1690135774361),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo","cradle"],
       for_post: ["toc"],
@@ -2260,6 +2260,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- import head_end end -->
   <!-- Custom Files headEnd begin-->
   
+  <!--Live2D-->
+  <meta charset="UTF-8">
+  <title>live2d-demo</title>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Live2DCubismCore -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
+  <!-- Include Pixi. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+  <!-- Include Cubism Components. -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
+  <!-- User's Script -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
+  <!-- <script src='./js/main.js'></script> -->
   <!-- Custom Files headEnd end-->
 </head>
   
@@ -2286,22 +2301,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
       window.addEventListener('load',endLoading);
     </script>
-          <!--Live2D-->
-  <meta charset="UTF-8">
-  <title>live2d-demo</title>
-  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Live2DCubismCore -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
-  <!-- Include Pixi. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
-  <!-- Include Cubism Components. -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
-  <!-- User's Script -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
-  <!-- <script src='./js/main.js'></script> -->
-  <!-- Live2DSettings -->
+          <!-- Live2DSettings -->
   <div class="Canvas"  id="L2dCanvas"></div><script>var config = {width: 800, height: 600, left: '-250px', bottom: '-150px', basePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/assets/', role: 'lafei', background: '', opacity: 1, mobile: false} 
       var v = new Viewer(config); </script>
   <!--浏览器动态标题-->
@@ -3337,7 +3337,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- 添加完成 -->
 <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/">
+  <link itemprop="mainEntityOfPage" href="https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Navaid · 柰蔚德">
   </span>
@@ -3485,7 +3485,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           <blockquote>
             
               
-                <p>本文由<a href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
+                <p>本文由<a target="_blank" rel="noopener" href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
 
               
             
@@ -3495,7 +3495,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/>https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/</a></p>
+                <p>本文永久链接是：<a href=https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/>https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/</a></p>
               
             
           </blockquote>
@@ -3540,7 +3540,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class='hoverbox'>
           <a class='share'><img src="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" class="lazyload" data-srcset="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
           <div class='target'>
-            <img src="data:image/png;base64,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">
+            <img src="data:image/png;base64,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">
           </div>
         </div>
       
@@ -3548,7 +3548,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&title=Hexo博客添加天气组件 - Navaid · 柰蔚德&summary=可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&title=Hexo博客添加天气组件 - Navaid · 柰蔚德&summary=可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。"
           
           >
           
@@ -3560,7 +3560,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&title=Hexo博客添加天气组件 - Navaid · 柰蔚德&summary=可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&title=Hexo博客添加天气组件 - Navaid · 柰蔚德&summary=可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。"
           
           >
           
@@ -3572,7 +3572,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&title=Hexo博客添加天气组件 - Navaid · 柰蔚德&summary=可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&title=Hexo博客添加天气组件 - Navaid · 柰蔚德&summary=可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。"
           
           >
           
@@ -3584,7 +3584,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-telegram" title="" rel="external nofollow noopener noreferrer noopener"
           
-            target="_blank" href="https://t.me/share/url?url=https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&text=Hexo博客添加天气组件 - Navaid · 柰蔚德"
+            target="_blank" href="https://t.me/share/url?url=https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/&text=Hexo博客添加天气组件 - Navaid · 柰蔚德"
           
           >
           
@@ -5054,7 +5054,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2023/07/20/Hexo博客添加天气组件/","name":"Hexo博客添加天气组件"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo博客添加天气组件","description":"可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。","datePublished":"2023-07-20T05:02:33.000Z","dateModified":"2023-07-20T17:58:21.092Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/","wordCount":59,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"/covers/2023-07-20.jpg","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://www.navaidx.rf.gd/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.navaidx.rf.gd/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.navaidx.rf.gd/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.navaidx.rf.gd/2023/07/20/Hexo博客添加天气组件/","name":"Hexo博客添加天气组件"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo博客添加天气组件","description":"可以给博客添加的天气组件有很多，比如心知天气、天气网等。本文介绍的是在hexo博客的导航栏处添加天气API提供的组件。","datePublished":"2023-07-20T05:02:33.000Z","dateModified":"2023-07-20T17:58:21.092Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://www.navaidx.rf.gd/2023/07/20/Hexo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%A4%A9%E6%B0%94%E7%BB%84%E4%BB%B6/","wordCount":59,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"/covers/2023-07-20.jpg","width":1024,"height":768}}]</script>
 
 
 

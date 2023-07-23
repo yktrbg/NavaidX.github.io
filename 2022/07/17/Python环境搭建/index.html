@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://navaidx.github.io/2022/07/17/python环境搭建/"/>
+  <link rel="canonical" href="https://www.navaidx.rf.gd/2022/07/17/python环境搭建/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -38,7 +38,7 @@
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="Python环境搭建">
-<meta property="og:url" content="https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/index.html">
+<meta property="og:url" content="https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/index.html">
 <meta property="og:site_name" content="Navaid · 柰蔚德">
 <meta property="og:description" content="本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。">
 <meta property="og:locale" content="zh_CN">
@@ -1867,7 +1867,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690134869703),
+    lastupdate: new Date(1690135774361),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo","cradle"],
       for_post: ["toc"],
@@ -2261,6 +2261,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- import head_end end -->
   <!-- Custom Files headEnd begin-->
   
+  <!--Live2D-->
+  <meta charset="UTF-8">
+  <title>live2d-demo</title>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Live2DCubismCore -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
+  <!-- Include Pixi. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+  <!-- Include Cubism Components. -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
+  <!-- User's Script -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
+  <!-- <script src='./js/main.js'></script> -->
   <!-- Custom Files headEnd end-->
 </head>
   
@@ -2287,22 +2302,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
       window.addEventListener('load',endLoading);
     </script>
-          <!--Live2D-->
-  <meta charset="UTF-8">
-  <title>live2d-demo</title>
-  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Live2DCubismCore -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
-  <!-- Include Pixi. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
-  <!-- Include Cubism Components. -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
-  <!-- User's Script -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
-  <!-- <script src='./js/main.js'></script> -->
-  <!-- Live2DSettings -->
+          <!-- Live2DSettings -->
   <div class="Canvas"  id="L2dCanvas"></div><script>var config = {width: 800, height: 600, left: '-250px', bottom: '-150px', basePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/assets/', role: 'lafei', background: '', opacity: 1, mobile: false} 
       var v = new Viewer(config); </script>
   <!--浏览器动态标题-->
@@ -3338,7 +3338,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- 添加完成 -->
 <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">
+  <link itemprop="mainEntityOfPage" href="https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Navaid · 柰蔚德">
   </span>
@@ -3569,7 +3569,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           <blockquote>
             
               
-                <p>本文由<a href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
+                <p>本文由<a target="_blank" rel="noopener" href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
 
               
             
@@ -3579,7 +3579,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/>https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</a></p>
+                <p>本文永久链接是：<a href=https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/>https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</a></p>
               
             
           </blockquote>
@@ -3624,7 +3624,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class='hoverbox'>
           <a class='share'><img src="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" class="lazyload" data-srcset="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
           <div class='target'>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAAFYCAAAAAAzB7ucAAAEbUlEQVR42u3aQXLcMAwEwP3/p517XC4BA4iSk+bNuyuKaupAjPH5Mm4ZHwRgwRpgwYI1wB6B/YTj24R/fV79/U/XVef9af7p/VIPsGDBggULFixYsGdhywfgJuz2PF3I7u+mHmDBggULFixYsGCfgb08AIeFQHrATx90C7btARYsWLBgwYIFC/ZXwU4D5WrhsH3wBwsWLFiwYMGCBft/w6bzTBs7pg0Y04IGLFiwYMGCBQsW7Dtg04N394GmMN2ge6vR5FgnDFiwYMGCBQsWLNgS7DbEb/879gALFixYsGDBggV7BHY60gP59MC/va41D7BgwYIFCxYsWLBHYNMDcjcwrgJ2g+XqhnXn7z4/WLBgwYIFCxYs2GdgtyDSRonqg1VfiK0Xp9tAAhYsWLBgwYIFC/YMbHrQ3lpIt1CYHvSnwXv8HwSwYMGCBQsWLFiwq7BbDRFbcNNCobtBXXiwYMGCBQsWLFiw74JNQbe/TwuFaSEwDcjBggULFixYsGDBnoVNbzwd00aMaoGw3bBxucFgwYIFCxYsWLBgj8BOGy/SB043ditIrxYc3fuABQsWLFiwYMGCPQs7PchXr+8CbgXUW4H55fOCBQsWLFiwYMGCPQp7V6NFFyrduO79p/OABQsWLFiwYMGCfQdsWhBsHbC3GyfSIHv6AoAFCxYsWLBgwYI9AzsNgLuFw12NGF2Q6v3bLxpYsGDBggULFizYo7BpELz9eboBaQHQLYAu5wELFixYsGDBggV7BDaF3A6WuwVLt9FiO9i/LBDAggULFixYsGDBHoWdNkxUr083bvp5N9iuDrBgwYIFCxYsWLDPwG4fwKcb0Z0vDbS3AnGwYMGCBQsWLFiwZ2G3H6QbZHc3YLqeaaHQ7oQBCxYsWLBgwYIFewtsd4L0+26QXAXbaiBJCwewYMGCBQsWLFiwz8BOGx/GC2k2jHQD6PT33fWABQsWLFiwYMGCfRZ2C2YaGG8F02lDShywgwULFixYsGDBgn0ENgXcgkoLhOn9040fd8KABQsWLFiwYMGCHcFuNz6kC6xu4FZhUC0Ayi8cWLBgwYIFCxYs2COw3Ym/mmPaMDGF2CoQyusECxYsWLBgwYIF+yrY7oNPg+7tAmDaEFLeMLBgwYIFCxYsWLCPwm4F02mAnUJ1GyzW1wkWLFiwYMGCBQv2Edit4Lc6z/TAnxYU0wEWLFiwYMGCBQv2WdjpSBsjrjbkrgaO7QD823rBggULFixYsGDBHoHdOiB3r0uD5RQ+vX+7UAILFixYsGDBggV7FDYtCLrB97SxYloIpBsZFwhgwYIFCxYsWLBgj8CmwXQKXv0+vU8axHevBwsWLFiwYMGCBftvwKYH+S7otCFk2jhSDrrBggULFixYsGDBvhJ2HBCHgfM00J4WCGDBggULFixYsGDfAdtt2Jg2epQP3sMA+q4NBQsWLFiwYMGCBfssbHe0A+BmA8f0QD9dZzoPWLBgwYIFCxYs2DOwxu4ACxasARYsWAPsreMPJjsQ1LudUS8AAAAASUVORK5CYII=">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAAFYCAAAAAAzB7ucAAAEVklEQVR42u3aQZIbIQwFUN//0sk+U66RvgRtpx47T2waHr1AP3r9MY6MFwKwYA2wYMEaYK/AvsLxY8J//l79/rvfVed9N//0eakHWLBgwYIFCxYs2Luw5QtwE3Z7ni5k93tTD7BgwYIFCxYsWLDPwP56AQ4LgfSCn250C7btARYsWLBgwYIFC/arYKeBcrVw2L74gwULFixYsGDBggXbgZgWCNsHDxYsWLBgwYIFC/a7YU8Fw2ng3S0MtguExzphwIIFCxYsWLBgwZZgu6ML/W2fYw+wYMGCBQsWLFiwV2Cn41TgPG3USAuLsQdYsGDBggULFizYK7DpBTmFSIGnoNMGjfL+wYIFCxYsWLBgwV6F7TYubEFUgdKC4/Rzyv+DABYsWLBgwYIFC3YVNr1ory1keKDdi//pYBwsWLBgwYIFCxbsHdh0wrgxNwzMp+tMQdsNI2DBggULFixYsGCvwqag04aNrSC9u65uoVJ+ccCCBQsWLFiwYMFehe0+eDqmjRjdAqBb2MTBO1iwYMGCBQsWLNgrsOUfNIPnKcQ0IE8POgUFCxYsWLBgwYIF+xmwKVAV7NQFfnzBDxtDwIIFCxYsWLBgwT4Lu72RLlR6cN3nT+cBCxYsWLBgwYIF+yxs2pjRbZRIC4lp8Nzd5/QFAAsWLFiwYMGCBXsHdisArm7sVCNGF6S7r/LBgAULFixYsGDBgr0KOw2wt/6eHkBaAFS/X54HLFiwYMGCBQsW7BXYKcxWsDwN1k+9IO2CAixYsGDBggULFuxHwqYNF1sNH2kjSBpsVwdYsGDBggULFizYZ2CnF/DtRolpgF1dz1YgDhYsWLBgwYIFC/YubLrh9II+Pbjt53YPqtywARYsWLBgwYIFC/YobHeC7oV5K4DuFijpAaaFCFiwYMGCBQsWLNi7sN3gN91gd97t+U+vByxYsGDBggULFuyzsGnge6qhYjuY3io43q4TLFiwYMGCBQsW7COwpwC7z6kewKmD7h4oWLBgwYIFCxYs2Gdgpw0TaTA8DaS3A/DxCwcWLFiwYMGCBQv2Cuw0YN5a0CmIboA/XidYsGDBggULFizYj4SdBtxpoN5t9NhuCCl7gQULFixYsGDBgn0UdiuY7l68tw94WoC01wkWLFiwYMGCBQv2Edj0c/Vi3w2a02D69AALFixYsGDBggX7LOx0TIPy7udpA8d2AP5jvWDBggULFixYsGCvwG5dkLu/S4PlFD59fnedYMGCBQsWLFiwYO/CpgVB+eJcXHC6rukBHysQwIIFCxYsWLBgwV6BTYPpFLz67+lz0iC++3uwYMGCBQsWLFiw/wdstWDoBuhpUL1V0PxaoIAFCxYsWLBgwYL9KtgpyFbwvtXYUX1hwIIFCxYsWLBgwX4G7HQj5Yv0MCDfXsfaOsGCBQsWLFiwYMFehe2OaSC8dYDddaYNHOWDAAsWLFiwYMGCBXsF1tgdYMGCNcCCBWuAPTr+AiEnjJBKBb3HAAAAAElFTkSuQmCC">
           </div>
         </div>
       
@@ -3632,7 +3632,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&title=Python环境搭建 - Navaid · 柰蔚德&summary=本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&title=Python环境搭建 - Navaid · 柰蔚德&summary=本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。"
           
           >
           
@@ -3644,7 +3644,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&title=Python环境搭建 - Navaid · 柰蔚德&summary=本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&title=Python环境搭建 - Navaid · 柰蔚德&summary=本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。"
           
           >
           
@@ -3656,7 +3656,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&title=Python环境搭建 - Navaid · 柰蔚德&summary=本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&title=Python环境搭建 - Navaid · 柰蔚德&summary=本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。"
           
           >
           
@@ -3668,7 +3668,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-telegram" title="" rel="external nofollow noopener noreferrer noopener"
           
-            target="_blank" href="https://t.me/share/url?url=https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&text=Python环境搭建 - Navaid · 柰蔚德"
+            target="_blank" href="https://t.me/share/url?url=https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/&text=Python环境搭建 - Navaid · 柰蔚德"
           
           >
           
@@ -5144,7 +5144,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/Python/","name":"Python"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2022/07/17/Python环境搭建/","name":"Python环境搭建"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Python环境搭建","description":"本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。","datePublished":"2022-07-17T02:33:57.000Z","dateModified":"2023-07-18T06:42:26.170Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/","wordCount":83,"articleSection":"Python","keywords":"VScode,Python","image":{"@type":"ImageObject","url":"/covers/2022-07-17.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://www.navaidx.rf.gd/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.navaidx.rf.gd/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.navaidx.rf.gd/categories/Python/","name":"Python"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.navaidx.rf.gd/2022/07/17/Python环境搭建/","name":"Python环境搭建"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Python环境搭建","description":"本文将展示Python环境搭建的两种方法（Windows适用）。一是使用Anaconda+Jupyter Notebook作为编辑器，二是使用VScode作为编辑器。","datePublished":"2022-07-17T02:33:57.000Z","dateModified":"2023-07-18T06:42:26.170Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://www.navaidx.rf.gd/2022/07/17/Python%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/","wordCount":83,"articleSection":"Python","keywords":"VScode,Python","image":{"@type":"ImageObject","url":"/covers/2022-07-17.png","width":1024,"height":768}}]</script>
 
 
 

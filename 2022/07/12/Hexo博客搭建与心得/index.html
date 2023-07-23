@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://navaidx.github.io/2022/07/12/hexo博客搭建与心得/"/>
+  <link rel="canonical" href="https://www.navaidx.rf.gd/2022/07/12/hexo博客搭建与心得/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -38,7 +38,7 @@
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo博客搭建与心得">
-<meta property="og:url" content="https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/index.html">
+<meta property="og:url" content="https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/index.html">
 <meta property="og:site_name" content="Navaid · 柰蔚德">
 <meta property="og:description" content="现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。">
 <meta property="og:locale" content="zh_CN">
@@ -1866,7 +1866,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690134869703),
+    lastupdate: new Date(1690135774361),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo","cradle"],
       for_post: ["toc"],
@@ -2260,6 +2260,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- import head_end end -->
   <!-- Custom Files headEnd begin-->
   
+  <!--Live2D-->
+  <meta charset="UTF-8">
+  <title>live2d-demo</title>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Live2DCubismCore -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
+  <!-- Include Pixi. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+  <!-- Include Cubism Components. -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
+  <!-- User's Script -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
+  <!-- <script src='./js/main.js'></script> -->
   <!-- Custom Files headEnd end-->
 </head>
   
@@ -2286,22 +2301,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
       window.addEventListener('load',endLoading);
     </script>
-          <!--Live2D-->
-  <meta charset="UTF-8">
-  <title>live2d-demo</title>
-  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Live2DCubismCore -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
-  <!-- Include Pixi. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
-  <!-- Include Cubism Components. -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
-  <!-- User's Script -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
-  <!-- <script src='./js/main.js'></script> -->
-  <!-- Live2DSettings -->
+          <!-- Live2DSettings -->
   <div class="Canvas"  id="L2dCanvas"></div><script>var config = {width: 800, height: 600, left: '-250px', bottom: '-150px', basePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/assets/', role: 'lafei', background: '', opacity: 1, mobile: false} 
       var v = new Viewer(config); </script>
   <!--浏览器动态标题-->
@@ -3337,7 +3337,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- 添加完成 -->
 <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/">
+  <link itemprop="mainEntityOfPage" href="https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Navaid · 柰蔚德">
   </span>
@@ -3616,7 +3616,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           <blockquote>
             
               
-                <p>本文由<a href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
+                <p>本文由<a target="_blank" rel="noopener" href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
 
               
             
@@ -3626,7 +3626,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/>https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/</a></p>
+                <p>本文永久链接是：<a href=https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/>https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/</a></p>
               
             
           </blockquote>
@@ -3671,7 +3671,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class='hoverbox'>
           <a class='share'><img src="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" class="lazyload" data-srcset="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
           <div class='target'>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXgAAAF4CAAAAAB79r16AAAFH0lEQVR42u3aQXLbMBAEQP3/08ndKZWwswPaTjVuckQRbPAymX39sb5lvRCAB2+BB2+BB28V4F/henf99O/p975+/+t1nz5vfy/2Ag8ePHjw4MGDBw++CH8cAD58vwV0eoCn+zw96NP9pF7gwYMHDx48ePDgwd+Ab23wdMOt+7cP8tp+wYMHDx48ePDgwYP/AfDp76RFShpo0gCWFivgwYMHDx48ePDgwf8G+GlwaQ0K1WFufx88ePDgwYMHDx48+AvwaRCZgm8LlHZQaw10PTZJBh48ePDgwYMHDx78hcDyv3+OvcCDBw8ePHjw4MGDL8C3VvuA0uIlDUhpwBs7gQcPHjx48ODBgwdfgE8HlqZwt4LJdFDqdH9pIbKeJAMPHjx48ODBgwcPfgCfbqw1QDQNSt8VtLZu4MGDBw8ePHjw4ME34G8VE6cb2g5QtQqa7Yt1HBTBgwcPHjx48ODBgy/Cb//DPz2Y00KkfdCnhUx637fXgQcPHjx48ODBgwdfhD/9gTTYPBWcTiFP75se0Nu/gwcPHjx48ODBgwdfgJ9u4Omgk4JPX5T0RRofOHjw4MGDBw8ePHjwBfht8Eg31gomaQBKX4jtfsCDBw8ePHjw4MGDfwK+VZS0B4NOVxx0lvuJGyjw4MGDBw8ePHjw4AdzNa0CIA0ebah0UCoNTMde4MGDBw8ePHjw4MEX4aeBYfpA7YKhHaxagfLjdeDBgwcPHjx48ODBF+C3gWN6MGng2gJui57TAa94oAk8ePDgwYMHDx48+AF8qzBogU0PtnXd9PlOnxs8ePDgwYMHDx48+JvwU+DpgcUbvXz/9v3AgwcPHjx48ODBg38CfloYpEGmFXhaRUcKlxYk4MGDBw8ePHjw4MF/J3wakNKiJAVMoacvzDjQgQcPHjx48ODBgwd/YT4+DRjTYiL9vA0waUCqByjw4MGDBw8ePHjw4AvwU8g2+NMHOx2ASgea/nke8ODBgwcPHjx48OAL8NMHTYuNVnC5fbDbIPexSAEPHjx48ODBgwcPvgDfCkbb76f/vi1YTg84fQHBgwcPHjx48ODBg38CvgWUBqIWbPp814MZePDgwYMHDx48ePAPwE8LjHRD2xehPZC0DkrgwYMHDx48ePDgwV+E3xYJpw8+hZ8OXE0HqLbXpQcGHjx48ODBgwcPHvwN+HaAmRYi24N9qiiJCyTw4MGDBw8ePHjw4Avwp0EpDRytQJMOEqWBbloQHT8nePDgwYMHDx48ePAF+G2AahUdtweWpkFrGxTBgwcPHjx48ODBg78J3yoWxoXA8PO2cGnfL90fePDgwYMHDx48ePAN+G1h0S4MpsXLrYGl7YGBBw8ePHjw4MGDB/8E/LZASP/eGny6VYSkA1Zv7wcePHjw4MGDBw8efAE+DR7bQqQ9uJRe17r++GDBgwcPHjx48ODBgy/Ab1capNKDTV+QdCCq9TvgwYMHDx48ePDgwTfhW4EjDVStg0kBp4XGNiCCBw8ePHjw4MGDB9+EvxWYptedFgytoNQabKo1UODBgwcPHjx48ODBB/DTAHNaSLSC1Hqg6NI+jj3AgwcPHjx48ODBg/+B8NsDagerbVGSDmiBBw8ePHjw4MGDB/+T4dOAs/3erSDWClDXixDw4MGDBw8ePHjw4F/7gaY0uKwDSXhgaQDcLvDgwYMHDx48ePDgm/DbIJQWItNA1SpUtgNPtQAFHjx48ODBgwcPHnwAbz27wIMHb4EHb4EHby3WXx787fDF1692AAAAAElFTkSuQmCC">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXgAAAF4CAAAAAB79r16AAAFJElEQVR42u3by44bMQwEwP3/n97cAxgjNlu2kZRufsxIKs2lTfrn1/jI+EEAHrwBHrwBHrxRgP8Jx9/Xp69fLvDFfOl1p+t/db+aF3jw4MGDBw8ePHjwRfjpxlKwU5jTA9w+INMD2XqBBw8ePHjw4MGDB38DPl3Q6UG07ne6/m3gSgMVePDgwYMHDx48ePDfDJ8WFqbfa4FuDxA8ePDgwYMHDx48+H8JftoYtC1wTBuXvqWgAh48ePDgwYMHDx78Dfi0ELEFON1I2mC0LcB8XScZePDgwYMHDx48ePCFwPK/vY69wIMHDx48ePDgwYMvwG/HNghtA1L6gLQC0tgLPHjw4MGDBw8ePPgC/HTj04aiWw1G04JJ6+DW+wMPHjx48ODBgwcPvgA/hdgeWAowPbin+z+9n67rcZ/gwYMHDx48ePDgwRfgWwuZfi8NQGlgSwsj7QMADx48ePDgwYMHD74BnwagFHIbVNYbHz5o28Yu8ODBgwcPHjx48OBvwm8beNoHc+vz6X3ahR/w4MGDBw8ePHjw4JvwaSCYBpbWfK0DnxZq0sYo8ODBgwcPHjx48OCb8GkQmhY2bgeT0wOaFk7a6wEPHjx48ODBgwcPvgE/DQC3A1cK1wpu0+vGDVXgwYMHDx48ePDgwRfgpz/op4WG7QZa0GnQ234fPHjw4MGDBw8ePPgm/BR2WiBp/cHhFGL7vdN9pw8CePDgwYMHDx48ePBN+CncNDikBYkUdvsApAHwcZ/gwYMHDx48ePDgwV+AbxUE0ven87UfnHpgeiqEgAcPHjx48ODBgwd/oaEpDR7bYLNdT3pApwWUeD7w4MGDBw8ePHjw4Avw24LGNICkG201YG0LNOv1ggcPHjx48ODBgwdfgL8Ne1pYmc6Xwm8LHNsDBQ8ePHjw4MGDBw++Cd8KUKeBJAVL508LI+n8L/cDHjx48ODBgwcPHnwRvhWQWguczt/aR+u6cXIFDx48ePDgwYMHD77we/y0AWna8DMNNKfrmq5nW1AZe4EHDx48ePDgwYMHX4BPwU4X3moESuHbgW9aSAEPHjx48ODBgwcP/gZ8CyANKKev08ak6frTYHnsAB48ePDgwYMHDx78Bfht405a6JjCpcEn3d84KIEHDx48ePDgwYMH/wb4dEPbxqRaMFkGorTgMfYCDx48ePDgwYMHD/4D8G3A7f2f5p1+3iqkvLwOPHjw4MGDBw8ePPgL8K0CxDaYtQotnwp6L68HDx48ePDgwYMHD74AfysgncJtG5ymAGkBpVUoAg8ePHjw4MGDBw++Cb+9cQq1vc+tQkj7ffDgwYMHDx48ePDg3wnfbjzaBpC0kDEdrUIKePDgwYMHDx48ePA34deNOqXGoFaBZvpgbRu5jgMZePDgwYMHDx48ePAF+NsbTgNUGnhOA1d68NNGrpcNTeDBgwcPHjx48ODBL+C3Y7rR6YGlhZDWg1A/SPDgwYMHDx48ePDgC/Dbhp80YG2D1bbg0p7/+H7gwYMHDx48ePDgwRfh3xWY2kDbg51Cpx7gwYMHDx48ePDgwd+E3wam0/tMCxqtYNea53R+8ODBgwcPHjx48OC/Eb59gG2Y9EF4eyEEPHjw4MGDBw8ePPgPwj8tpB2AWoWRtCA0XSd48ODBgwcPHjx48Dfgtw1N64af5QH+Lsc0WNUCFHjw4MGDBw8ePHjwX/AH41O4acBqFVTSAsz0wB4bmsCDBw8ePHjw4MGDD+CN9w7w4MEb4MEb4MEbi/EHZ5slRiACFNUAAAAASUVORK5CYII=">
           </div>
         </div>
       
@@ -3679,7 +3679,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&title=Hexo博客搭建与心得 - Navaid · 柰蔚德&summary=现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&title=Hexo博客搭建与心得 - Navaid · 柰蔚德&summary=现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。"
           
           >
           
@@ -3691,7 +3691,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&title=Hexo博客搭建与心得 - Navaid · 柰蔚德&summary=现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&title=Hexo博客搭建与心得 - Navaid · 柰蔚德&summary=现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。"
           
           >
           
@@ -3703,7 +3703,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&title=Hexo博客搭建与心得 - Navaid · 柰蔚德&summary=现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&title=Hexo博客搭建与心得 - Navaid · 柰蔚德&summary=现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。"
           
           >
           
@@ -3715,7 +3715,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-telegram" title="" rel="external nofollow noopener noreferrer noopener"
           
-            target="_blank" href="https://t.me/share/url?url=https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&text=Hexo博客搭建与心得 - Navaid · 柰蔚德"
+            target="_blank" href="https://t.me/share/url?url=https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/&text=Hexo博客搭建与心得 - Navaid · 柰蔚德"
           
           >
           
@@ -5191,7 +5191,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2022/07/12/Hexo博客搭建与心得/","name":"Hexo博客搭建与心得"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo博客搭建与心得","description":"现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。","datePublished":"2022-07-12T01:54:39.000Z","dateModified":"2023-07-18T07:13:50.786Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/","wordCount":100,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"/covers/2022-07-12.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://www.navaidx.rf.gd/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.navaidx.rf.gd/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.navaidx.rf.gd/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.navaidx.rf.gd/2022/07/12/Hexo博客搭建与心得/","name":"Hexo博客搭建与心得"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo博客搭建与心得","description":"现在不少人会在博客网站、论坛上发表文章，也有不少人选择搭建个人博客。个人博客的好处在于发表文章的限制少，方便管理、可以自由选择主题。同时，个人博客里的文章也可以帮助人们更好的分享知识、记录博主的成长。","datePublished":"2022-07-12T01:54:39.000Z","dateModified":"2023-07-18T07:13:50.786Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://www.navaidx.rf.gd/2022/07/12/Hexo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%B8%8E%E5%BF%83%E5%BE%97/","wordCount":100,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"/covers/2022-07-12.png","width":1024,"height":768}}]</script>
 
 
 

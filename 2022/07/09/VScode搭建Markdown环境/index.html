@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://navaidx.github.io/2022/07/09/vscode搭建markdown环境/"/>
+  <link rel="canonical" href="https://www.navaidx.rf.gd/2022/07/09/vscode搭建markdown环境/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -38,7 +38,7 @@
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="VScode搭建Markdown环境">
-<meta property="og:url" content="https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/index.html">
+<meta property="og:url" content="https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/index.html">
 <meta property="og:site_name" content="Navaid · 柰蔚德">
 <meta property="og:description" content="主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。">
 <meta property="og:locale" content="zh_CN">
@@ -1867,7 +1867,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690134869703),
+    lastupdate: new Date(1690135774361),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo","cradle"],
       for_post: ["toc"],
@@ -2261,6 +2261,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- import head_end end -->
   <!-- Custom Files headEnd begin-->
   
+  <!--Live2D-->
+  <meta charset="UTF-8">
+  <title>live2d-demo</title>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Live2DCubismCore -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
+  <!-- Include Pixi. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+  <!-- Include Cubism Components. -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
+  <!-- User's Script -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
+  <!-- <script src='./js/main.js'></script> -->
   <!-- Custom Files headEnd end-->
 </head>
   
@@ -2287,22 +2302,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
       window.addEventListener('load',endLoading);
     </script>
-          <!--Live2D-->
-  <meta charset="UTF-8">
-  <title>live2d-demo</title>
-  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Live2DCubismCore -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
-  <!-- Include Pixi. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
-  <!-- Include Cubism Components. -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
-  <!-- User's Script -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
-  <!-- <script src='./js/main.js'></script> -->
-  <!-- Live2DSettings -->
+          <!-- Live2DSettings -->
   <div class="Canvas"  id="L2dCanvas"></div><script>var config = {width: 800, height: 600, left: '-250px', bottom: '-150px', basePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/assets/', role: 'lafei', background: '', opacity: 1, mobile: false} 
       var v = new Viewer(config); </script>
   <!--浏览器动态标题-->
@@ -3338,7 +3338,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- 添加完成 -->
 <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/">
+  <link itemprop="mainEntityOfPage" href="https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Navaid · 柰蔚德">
   </span>
@@ -3499,7 +3499,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           <blockquote>
             
               
-                <p>本文由<a href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
+                <p>本文由<a target="_blank" rel="noopener" href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
 
               
             
@@ -3509,7 +3509,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/>https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/</a></p>
+                <p>本文永久链接是：<a href=https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/>https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/</a></p>
               
             
           </blockquote>
@@ -3554,7 +3554,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class='hoverbox'>
           <a class='share'><img src="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" class="lazyload" data-srcset="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
           <div class='target'>
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAAFYCAAAAAAzB7ucAAAEaklEQVR42u3aQXLjMAwEwPz/09kHbLlEDEAoSTVvcSyJbPmAQeHr27qyvhCABWuBBQvWArsC+xWujzd++P+n5366/tP9TvdXPU/XAyxYsGDBggULFuwu7HEBfOmgp7BTz6/e/9QDLFiwYMGCBQsW7Duw3Y1Vg0D1IGkQOYbpeoAFCxYsWLBgwYL9E7DdRvfpizj9f9poBwsWLFiwYMGCBfu3YacOPhUwqoMnYMGCBQsWLFiwYH8nbHlAobiR9P63INMGOliwYMGCBQsWLNifAVtdaWD4LX/HHmDBggULFixYsGBXYLur26CuFvy39jvmARYsWLBgwYIFC3YFNi2QpyCmGtHVIJM2yh/PDxYsWLBgwYIFC3YFNj3oaQCoBoNug328cV08B1iwYMGCBQsWLNh3YasFeApUbUTfeiFjDX6wYMGCBQsWLFiwK7BPG63+nYJ3vzcVcNqNeLBgwYIFCxYsWLCrsFMHOb0u/by77zQ4xJMwYMGCBQsWLFiwYFdg243esHGcHijd91Qj/OPABliwYMGCBQsWLNirsOmGut/vDvzeCjgpKFiwYMGCBQsWLNh3YMuF8OFG0vtWwcoN6cMXVf4BggULFixYsGDBgl2FnQoIVYj0um5D/PrABliwYMGCBQsWLNgfPR97WsjfamRXG+rdgPJ4PViwYMGCBQsWLNgV2FsN6G7BP/Xiu/evDnSABQsWLFiwYMGC3YGtFurpgMZ0QEgb8919P94fLFiwYMGCBQsW7ApsWrB/N1e34K82pqcCyGOgAAsWLFiwYMGCBbsCW71hurF0IKNdsB8GkW5wAQsWLFiwYMGCBbsL220UVwvy7oupBoq0YZ8+HyxYsGDBggULFuwObHcgNz3QrYN14dNgAxYsWLBgwYIFC3YXtgp5a6A3DQppEJhq8D8mL7BgwYIFCxYsWLBXYasH7DagU6ipQeHqPo5/IGDBggULFixYsGBfhb0dDKaATu9/az/lgAAWLFiwYMGCBQv2CmwaBKYayVMBIX0B7cAEFixYsGDBggULdgX2tQ0cFvLdQFAdGGkHFLBgwYIFCxYsWLCvwKaFfgrcLey7DfcU/LHRDRYsWLBgwYIFC3YVdioopA3yuDAvrmsNdLBgwYIFCxYsWLCvwnYHLk6/1x30TYNE9fPj54IFCxYsWLBgwYJ9BbY6mHG6oekGevf5abBoD2yABQsWLFiwYMGCHYHtrrRRPhUcugGm22j/735gwYIFCxYsWLBgV2CnCuTqBtKDp4MbXfjjwAEWLFiwYMGCBQt2FXaq4J4OGFNBoQsfBwSwYMGCBQsWLFiwK7BTgxApaLqf6kBxNSAd/9DAggULFixYsGDB/irY6YGMqedON7IfrwMLFixYsGDBggX7q2C7De1uY7q67+mgABYsWLBgwYIFC/Zd2G6DeqshPTVgkg6MfPwcLFiwYMGCBQsW7CpsdVUL+Gpg6A50dINMPMABFixYsGDBggULdgXWml1gwYK1wIIFa4G9uv4Bs8MCtTXXDscAAAAASUVORK5CYII=">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAVgAAAFYCAAAAAAzB7ucAAAEZklEQVR42u3aQW4jMQwEQP//07sPCIxRkxQdB6VbYows1fhANvj6Z11ZLwRgwVpgwYK1wK7Avorr7cYPn7/73nfPv9vv9HzpfboeYMGCBQsWLFiwYHdhjwvgSxc9hZ36/nT/Uw+wYMGCBQsWLFiwn4HtHixtBNKLVBuRY5iuB1iwYMGCBQsWLNg/AdsNuk9fxOnn1aAdLFiwYMGCBQsW7N+EnR7o6EKnoGDBggULFixYsGC/GzYeUAiD7NMLdQPx9IVfH9gACxYsWLBgwYIFewU2XafB97f+XfYACxYsWLBgwYIFuwLbXaeFfRo4VxuE6gDJmAdYsGDBggULFizYFdhqgXwagJ8CdUHSRmb6/mDBggULFixYsGB3YasF+SlU9QVVA/bq/6vfcxx0gwULFixYsGDBgl2BTQvwaaDT8003Mu2AHyxYsGDBggULFuwKbDe4vgWZvsju/mMDI2DBggULFixYsGBXYbsFdve56gBHN0CfGjgBCxYsWLBgwYIFuwtbDXy7INUge+rc14J3sGDBggULFixYsCuw1wLfSwX7rYGNLihYsGDBggULFizY3wl7esC0gE+hpn4Apy8qbnDAggULFixYsGDBfhR2arBhevBiKhBfn4QBCxYsWLBgwYIFuwqbFvrTg72vcFUD97HgHCxYsGDBggULFuwKbDeAnmoUqjBTQXz6+ePABliwYMGCBQsWLNirsGkQXR3QmG4Q0uB86tyP+4MFCxYsWLBgwYJdgZ0qmNPVLfjTYHrqPo8+YMGCBQsWLFiwYFdgqw1C92Bpo3B63un9TxsXsGDBggULFixYsLuw3aC4CrDdKGydEyxYsGDBggULFuwObHcg9+li6QvoAqQv6LThGOu8wIIFCxYsWLBgwY7AppBTQXRayKcvtNrYpA3JY+cFFixYsGDBggUL9ipsWjhXG4X0+eq+3cC++kMCCxYsWLBgwYIF+1nYqQB7ulDvBtPVxmesQQALFixYsGDBggV7BTbdKC30u8F1+mKmgvtjcLBgwYIFCxYsWLArsNUBi6mAfKoBqT5fdQALFixYsGDBggX7u2BPYboH6DYiVcAp8MegGyxYsGDBggULFuwqbDfAngqiq4F5NSivBvNgwYIFCxYsWLBgfxdsdQA3Be8O+lYbifT/x98LFixYsGDBggUL9iOwU0Fz+ncKlQ5qVAc/4gYCLFiwYMGCBQsW7Apsd1UHjacah24D0w3af+wHFixYsGDBggULdgV2qkBOD3CrsegOYHQDcLBgwYIFCxYsWLC7sFMF93SDMdUodOHLDQJYsGDBggULFizYFdipQYgqaPU86UBx2iAd/9DAggULFixYsGDBfhVsevFbAXQaUKdB9uNzYMGCBQsWLFiwYL8KNg2YqxC3AvluowAWLFiwYMGCBQv2s7DdAYvTILt68Vug3UAeLFiwYMGCBQsW7Gdg03Va+HeD6nSfqXOWA3qwYMGCBQsWLFiwK7DW7AILFqwFFixYC+zV9R8oUII1rbwCMwAAAABJRU5ErkJggg==">
           </div>
         </div>
       
@@ -3562,7 +3562,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&title=VScode搭建Markdown环境 - Navaid · 柰蔚德&summary=主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&title=VScode搭建Markdown环境 - Navaid · 柰蔚德&summary=主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。"
           
           >
           
@@ -3574,7 +3574,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&title=VScode搭建Markdown环境 - Navaid · 柰蔚德&summary=主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&title=VScode搭建Markdown环境 - Navaid · 柰蔚德&summary=主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。"
           
           >
           
@@ -3586,7 +3586,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&title=VScode搭建Markdown环境 - Navaid · 柰蔚德&summary=主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&title=VScode搭建Markdown环境 - Navaid · 柰蔚德&summary=主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。"
           
           >
           
@@ -3598,7 +3598,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-telegram" title="" rel="external nofollow noopener noreferrer noopener"
           
-            target="_blank" href="https://t.me/share/url?url=https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&text=VScode搭建Markdown环境 - Navaid · 柰蔚德"
+            target="_blank" href="https://t.me/share/url?url=https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/&text=VScode搭建Markdown环境 - Navaid · 柰蔚德"
           
           >
           
@@ -5075,7 +5075,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/VScode/","name":"VScode"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2022/07/09/VScode搭建Markdown环境/","name":"VScode搭建Markdown环境"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"VScode搭建Markdown环境","description":"主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。","datePublished":"2022-07-09T11:47:49.000Z","dateModified":"2023-07-18T06:44:27.457Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/","wordCount":132,"articleSection":"VScode","keywords":"VScode,Markdown","image":{"@type":"ImageObject","url":"/covers/2022-07-09-2.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://www.navaidx.rf.gd/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.navaidx.rf.gd/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.navaidx.rf.gd/categories/VScode/","name":"VScode"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.navaidx.rf.gd/2022/07/09/VScode搭建Markdown环境/","name":"VScode搭建Markdown环境"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"VScode搭建Markdown环境","description":"主流的Markdown编辑器不少，比如著名的Typora、Atom、Haroopad等软件。Dillinger、Markdown Nice等网页版Markdown编辑器也非常好用。而VScode作为一款扩展性强的跨平台编辑器自然也是支持搭建Markdown环境的。","datePublished":"2022-07-09T11:47:49.000Z","dateModified":"2023-07-18T06:44:27.457Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://www.navaidx.rf.gd/2022/07/09/VScode%E6%90%AD%E5%BB%BAMarkdown%E7%8E%AF%E5%A2%83/","wordCount":132,"articleSection":"VScode","keywords":"VScode,Markdown","image":{"@type":"ImageObject","url":"/covers/2022-07-09-2.png","width":1024,"height":768}}]</script>
 
 
 

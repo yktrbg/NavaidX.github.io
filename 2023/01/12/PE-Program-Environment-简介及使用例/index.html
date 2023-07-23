@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://navaidx.github.io/2023/01/12/pe-program-environment-简介及使用例/"/>
+  <link rel="canonical" href="https://www.navaidx.rf.gd/2023/01/12/pe-program-environment-简介及使用例/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -38,7 +38,7 @@
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="PE(Program Environment)简介及使用例">
-<meta property="og:url" content="https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/index.html">
+<meta property="og:url" content="https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/index.html">
 <meta property="og:site_name" content="Navaid · 柰蔚德">
 <meta property="og:description" content="我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。">
 <meta property="og:locale" content="zh_CN">
@@ -1867,7 +1867,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690134869703),
+    lastupdate: new Date(1690135774361),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo","cradle"],
       for_post: ["toc"],
@@ -2261,6 +2261,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- import head_end end -->
   <!-- Custom Files headEnd begin-->
   
+  <!--Live2D-->
+  <meta charset="UTF-8">
+  <title>live2d-demo</title>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Live2DCubismCore -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
+  <!-- Include Pixi. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+  <!-- Include Cubism Components. -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
+  <!-- User's Script -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
+  <!-- <script src='./js/main.js'></script> -->
   <!-- Custom Files headEnd end-->
 </head>
   
@@ -2287,22 +2302,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
       window.addEventListener('load',endLoading);
     </script>
-          <!--Live2D-->
-  <meta charset="UTF-8">
-  <title>live2d-demo</title>
-  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Live2DCubismCore -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
-  <!-- Include Pixi. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
-  <!-- Include Cubism Components. -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
-  <!-- User's Script -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
-  <!-- <script src='./js/main.js'></script> -->
-  <!-- Live2DSettings -->
+          <!-- Live2DSettings -->
   <div class="Canvas"  id="L2dCanvas"></div><script>var config = {width: 800, height: 600, left: '-250px', bottom: '-150px', basePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/assets/', role: 'lafei', background: '', opacity: 1, mobile: false} 
       var v = new Viewer(config); </script>
   <!--浏览器动态标题-->
@@ -3338,7 +3338,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- 添加完成 -->
 <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/">
+  <link itemprop="mainEntityOfPage" href="https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Navaid · 柰蔚德">
   </span>
@@ -3520,7 +3520,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           <blockquote>
             
               
-                <p>本文由<a href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
+                <p>本文由<a target="_blank" rel="noopener" href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
 
               
             
@@ -3530,7 +3530,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/>https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/</a></p>
+                <p>本文永久链接是：<a href=https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/>https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/</a></p>
               
             
           </blockquote>
@@ -3575,7 +3575,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class='hoverbox'>
           <a class='share'><img src="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" class="lazyload" data-srcset="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
           <div class='target'>
-            <img src="data:image/png;base64,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">
+            <img src="data:image/png;base64,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">
           </div>
         </div>
       
@@ -3583,7 +3583,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&title=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德&summary=我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&title=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德&summary=我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。"
           
           >
           
@@ -3595,7 +3595,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&title=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德&summary=我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&title=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德&summary=我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。"
           
           >
           
@@ -3607,7 +3607,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&title=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德&summary=我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&title=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德&summary=我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。"
           
           >
           
@@ -3619,7 +3619,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-telegram" title="" rel="external nofollow noopener noreferrer noopener"
           
-            target="_blank" href="https://t.me/share/url?url=https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&text=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德"
+            target="_blank" href="https://t.me/share/url?url=https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/&text=PE(Program Environment)简介及使用例 - Navaid · 柰蔚德"
           
           >
           
@@ -5098,7 +5098,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/CS2030S/","name":"CS2030S"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2023/01/12/PE-Program-Environment-简介及使用例/","name":"PE(Program Environment)简介及使用例"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"PE(Program Environment)简介及使用例","description":"我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。","datePublished":"2023-01-12T06:49:15.000Z","dateModified":"2023-07-19T08:52:25.954Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/","wordCount":66,"articleSection":"CS2030S","keywords":"Java,PE","image":{"@type":"ImageObject","url":"/covers/2023-01-12.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://www.navaidx.rf.gd/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.navaidx.rf.gd/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.navaidx.rf.gd/categories/CS2030S/","name":"CS2030S"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-简介及使用例/","name":"PE(Program Environment)简介及使用例"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"PE(Program Environment)简介及使用例","description":"我们可以通过SSH，即Secure SHell访问校园的计算机服务，它可以直接通过Terminal（mac命令行）或iTerm访问。","datePublished":"2023-01-12T06:49:15.000Z","dateModified":"2023-07-19T08:52:25.954Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://www.navaidx.rf.gd/2023/01/12/PE-Program-Environment-%E7%AE%80%E4%BB%8B%E5%8F%8A%E4%BD%BF%E7%94%A8%E4%BE%8B/","wordCount":66,"articleSection":"CS2030S","keywords":"Java,PE","image":{"@type":"ImageObject","url":"/covers/2023-01-12.png","width":1024,"height":768}}]</script>
 
 
 

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <!-- SEO相关 -->
   
-  <link rel="canonical" href="https://navaidx.github.io/2023/07/12/hexo博客使用本地图片/"/>
+  <link rel="canonical" href="https://www.navaidx.rf.gd/2023/07/12/hexo博客使用本地图片/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://npm.elemecdn.com'>
@@ -38,7 +38,7 @@
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo博客使用本地图片">
-<meta property="og:url" content="https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/index.html">
+<meta property="og:url" content="https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/index.html">
 <meta property="og:site_name" content="Navaid · 柰蔚德">
 <meta property="og:description" content="之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。">
 <meta property="og:locale" content="zh_CN">
@@ -1866,7 +1866,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690134869703),
+    lastupdate: new Date(1690135774361),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo","cradle"],
       for_post: ["toc"],
@@ -2260,6 +2260,21 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!-- import head_end end -->
   <!-- Custom Files headEnd begin-->
   
+  <!--Live2D-->
+  <meta charset="UTF-8">
+  <title>live2d-demo</title>
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Live2DCubismCore -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
+  <!-- Include Pixi. -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
+  <!-- Include Cubism Components. -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
+  <!-- User's Script -->
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
+  <!-- <script src='./js/main.js'></script> -->
   <!-- Custom Files headEnd end-->
 </head>
   
@@ -2286,22 +2301,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       }
       window.addEventListener('load',endLoading);
     </script>
-          <!--Live2D-->
-  <meta charset="UTF-8">
-  <title>live2d-demo</title>
-  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-  <!-- Live2DCubismCore -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/frame/live2dcubismcore.min.js"></script>
-  <!-- Include Pixi. -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.1/pixi.min.js"></script>
-  <!-- Include Cubism Components. -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismframework.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/live2dcubismpixi.js"></script>
-  <!-- User's Script -->
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/l2d.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@master/js/main.js"></script>
-  <!-- <script src='./js/main.js'></script> -->
-  <!-- Live2DSettings -->
+          <!-- Live2DSettings -->
   <div class="Canvas"  id="L2dCanvas"></div><script>var config = {width: 800, height: 600, left: '-250px', bottom: '-150px', basePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/assets/', role: 'lafei', background: '', opacity: 1, mobile: false} 
       var v = new Viewer(config); </script>
   <!--浏览器动态标题-->
@@ -3337,7 +3337,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 <!-- 添加完成 -->
 <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
-  <link itemprop="mainEntityOfPage" href="https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/">
+  <link itemprop="mainEntityOfPage" href="https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="Navaid · 柰蔚德">
   </span>
@@ -3489,7 +3489,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           <blockquote>
             
               
-                <p>本文由<a href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
+                <p>本文由<a target="_blank" rel="noopener" href="https://NavaidX.github.io/">Eyton</a>创作，转载请注明出处</p>
 
               
             
@@ -3499,7 +3499,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
               
             
               
-                <p>本文永久链接是：<a href=https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/>https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/</a></p>
+                <p>本文永久链接是：<a href=https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/>https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/</a></p>
               
             
           </blockquote>
@@ -3544,7 +3544,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
         <div class='hoverbox'>
           <a class='share'><img src="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" class="lazyload" data-srcset="https://s2.loli.net/2023/07/12/ISqQxGnjsoClAhR.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></a>
           <div class='target'>
-            <img src="data:image/png;base64,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">
+            <img src="data:image/png;base64,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">
           </div>
         </div>
       
@@ -3552,7 +3552,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&title=Hexo博客使用本地图片 - Navaid · 柰蔚德&summary=之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。"
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&title=Hexo博客使用本地图片 - Navaid · 柰蔚德&summary=之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。"
           
           >
           
@@ -3564,7 +3564,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&title=Hexo博客使用本地图片 - Navaid · 柰蔚德&summary=之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。"
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&title=Hexo博客使用本地图片 - Navaid · 柰蔚德&summary=之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。"
           
           >
           
@@ -3576,7 +3576,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&title=Hexo博客使用本地图片 - Navaid · 柰蔚德&summary=之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。"
+          target="_blank" href="http://service.weibo.com/share/share.php?url=https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&title=Hexo博客使用本地图片 - Navaid · 柰蔚德&summary=之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。"
           
           >
           
@@ -3588,7 +3588,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-telegram" title="" rel="external nofollow noopener noreferrer noopener"
           
-            target="_blank" href="https://t.me/share/url?url=https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&text=Hexo博客使用本地图片 - Navaid · 柰蔚德"
+            target="_blank" href="https://t.me/share/url?url=https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/&text=Hexo博客使用本地图片 - Navaid · 柰蔚德"
           
           >
           
@@ -5069,7 +5069,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://navaidx.github.io/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://navaidx.github.io/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://navaidx.github.io/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://navaidx.github.io/2023/07/12/Hexo博客使用本地图片/","name":"Hexo博客使用本地图片"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo博客使用本地图片","description":"之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。","datePublished":"2023-07-11T18:23:52.000Z","dateModified":"2023-07-21T04:44:50.951Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://navaidx.github.io/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://navaidx.github.io/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/","wordCount":95,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"/covers/2023-07-12.png","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"Navaid · 柰蔚德","url":"https://www.navaidx.rf.gd/","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/","sameAs":["https://github.com/volantis-x"],"description":"Blog & Notes"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"https://www.navaidx.rf.gd/","name":"Navaid · 柰蔚德"}},{"@type":"ListItem","position":2,"item":{"@id":"https://www.navaidx.rf.gd/categories/博客/","name":"博客"}},{"@type":"ListItem","position":3,"item":{"@id":"https://www.navaidx.rf.gd/2023/07/12/Hexo博客使用本地图片/","name":"Hexo博客使用本地图片"}}]},{"@context":"http://schema.org","@type":"BlogPosting","headline":"Hexo博客使用本地图片","description":"之前一直把图片存在图床上。但是，图床可能会终止服务，这会对我们的博客项目产生影响。通过插件，可以实现本地图片直接通过git和md文件一起上传到github的效果，并可以使用相对路径访问图片。","datePublished":"2023-07-11T18:23:52.000Z","dateModified":"2023-07-21T04:44:50.951Z","inLanguage":["zh-CN"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/"},"author":{"@type":"Person","name":"NavaidX","image":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"https://www.navaidx.rf.gd/"},"publisher":{"@type":"Organization","name":"Navaid · 柰蔚德","logo":{"@type":"ImageObject","url":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"https://www.navaidx.rf.gd/2023/07/12/Hexo%E5%8D%9A%E5%AE%A2%E4%BD%BF%E7%94%A8%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87/","wordCount":95,"articleSection":"博客","keywords":"Hexo","image":{"@type":"ImageObject","url":"/covers/2023-07-12.png","width":1024,"height":768}}]</script>
 
 
 
