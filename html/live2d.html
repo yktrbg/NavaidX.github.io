@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/cursor.css">
+</head>
+
 <!--特效-->
 <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_slide.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_click.js"></script>
@@ -16,6 +20,11 @@
 <script src="https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/js/main.js"></script>
 <!-- <script src='./js/main.js'></script> -->
 <!-- Live2DSettings -->
+<style>
+    .Canvas {
+        z-index: 1;
+      }
+</style>
 <div class="Canvas"  id="L2dCanvas"></div><script>var config = {width: 800, height: 600, left: '-250px', bottom: '-150px', basePath: 'https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.4/assets/', role: 'lafei', background: '', opacity: 1, mobile: false} 
     var v = new Viewer(config); </script>
 
@@ -23,13 +32,14 @@
 <style>
 	.rectangle {
         display: block;
-        width: 250px;
-        height: 320px;
+        width: 50px;
+        height: 50px;
         border: 0px solid black;
         border-radius: 100px;
         position: fixed;
-        left: 20px; 
-        bottom: 0px;
+        left: 120px; 
+        bottom: 190px;
+        z-index: 1;
 	}
 </style>
 
