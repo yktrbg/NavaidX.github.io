@@ -1863,7 +1863,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: false,
     cdn: {"js":{"app":"/js/app.80db1a18.js","parallax":"/js/plugins/parallax.8bf0ab10.js","rightMenu":"/js/plugins/rightMenu.1d2dd3e0.js","rightMenus":"/js/plugins/rightMenus.3669cc79.js","sites":"/js/plugins/tags/sites.76bf19b8.js","friends":"/js/plugins/tags/friends.f372da57.js","contributors":"/js/plugins/tags/contributors.aec80453.js","search":"/js/search/hexo.06d40311.js"},"css":{"style":"/css/style.dd9b00a1.css"}},
     default: {"avatar":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/avatar/round/3442075.svg","link":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/cover/76b86c0226ffd.svg","image":"https://npm.elemecdn.com/volantis-static@0.0.1649552113628/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1690447691279),
+    lastupdate: new Date(1690643346869),
     sidebar: {
       for_page: ["blogger","revolvermaps","category","tagcloud","webinfo","cradle"],
       for_post: ["toc"],
@@ -2293,8 +2293,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <!--加载动画-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_1.css" >
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zyoushuo/Blog@latest/hexo/css/loading_style_2.css" >
-  <!--鼠标图案-->
-  <link rel="stylesheet" type="text/css" href="/css/cursor.css">
+  <!--live2d-->
+  <script src="/js/live2dv3.init.js"></script>
   <!--botstar-chatbot-->
   <div id="botstar-chatbot"></div>
   <script>
@@ -2310,7 +2310,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <body itemscope itemtype="http://schema.org/WebPage">
   <!--特效-->
   <!--<script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/sakura.js"></script>-->
-  <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_slide.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_slide.js"></script> -->
   <script src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_click.js"></script>
   <!--动态线条背景-->
   <!-- <script type="text/javascript"
@@ -2319,20 +2319,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <!-- import body_begin begin-->
     <!-- import body_begin end-->
     <!-- Custom Files bodyBegin begin-->
-    <!--live2d-->
-    <script>
-      window.addEventListener("resize", resizeFrame);
-      function resizeFrame() {
-        var scale = window.innerWidth / document.documentElement.clientWidth;
-        var iframe = document.querySelector("iframe");
-        var newHeight = 400 * scale;
-        var newWidth = 400 * scale;
-        iframe.style.height = newHeight + "px";
-        iframe.style.width = newWidth + "px";
-      }
-      resizeFrame();
-    </script>
-    <iframe id = "frame"  frameborder="0" scrolling="no" style="left:0; bottom:0; width: 22%; height: 35%; z-index: 9999; position:fixed;" src = "/html/live2d.html"></iframe>
     
     <!-- Custom Files bodyBegin end-->
     <header itemscope itemtype="http://schema.org/WPHeader" id="l_header" class="l_header auto shadow show" style='opacity: 0' >
@@ -3454,6 +3440,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
     
       
+    
+      
         <article id="page" class="post article-type-page" itemscope itemprop="blogPost">
           <section class="article typo">
             <div class="article-entry" itemprop="articleBody">
@@ -3463,8 +3451,6 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
             </div>
           </section>
         </article>
-      
-    
       
     
       
@@ -3642,7 +3628,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <div class="webinfo-item">
           <div>最后活动时间：</div>
-          <div id="last-update-show">2023-07-27 日</div> 
+          <div id="last-update-show">2023-07-29 日</div> 
         </div>
       
     </div>
