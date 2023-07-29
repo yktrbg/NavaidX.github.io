@@ -5,12 +5,12 @@ document.write('<script src="https://unpkg.com/core-js-bundle@3.6.1/minified.js"
 // document.write('<script src="https://cdn.jsdelivr.net/npm/howler@2.1.3/dist/howler.min.js"></script>');
 // 必需
 // document.write('<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>');
-document.write('<script src="https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/lib/live2dcubismcore.min.js"></script>');
+document.write('<script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/lib/live2dcubismcore.min.js"></script>');
 document.write('<script src="https://cdn.jsdelivr.net/npm/pixi.js@4.6.1/dist/pixi.min.js"></script>');
 // live2dv3.js
-document.write('<script src="https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/live2dv3.js"></script>');
+document.write('<script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/live2dv3.js"></script>');
 // 内置角色
-document.write('<script src="https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/charData.js"></script>');
+document.write('<script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/charData.js"></script>');
 // 依赖css
 document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">');
 document.write('<link rel="stylesheet" href="/css/live2dv3.init.css">');
