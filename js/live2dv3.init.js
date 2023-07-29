@@ -16,10 +16,6 @@ document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-a
 document.write('<link rel="stylesheet" href="/css/live2dv3.init.css">');
 // 其它
 document.write('<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"> </script>');
-document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>');
-document.write('<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>');
-document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>');
-document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>');
 
 // 创建看板娘div
 document.write(
@@ -58,7 +54,7 @@ function createL2dv() {
         l2dv = new L2dViewer({
             el: document.getElementById('L2dCanvas'),
             // modelHomePath: './assets/model/',
-            modelHomePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/assets/',
+            modelHomePath: 'https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/assets/',
             model: initModelName,
             // bgImg: '',
             width: 500,
