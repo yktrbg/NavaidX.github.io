@@ -10,7 +10,7 @@ document.write('<script src="https://cdn.jsdelivr.net/npm/pixi.js@4.6.1/dist/pix
 // live2dv3.js
 document.write('<script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/live2dv3.js"></script>');
 // 内置角色
-document.write('<script src="https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/charData.js"></script>');
+document.write('<script src="https:/cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/js/charData.js"></script>');
 // 依赖css
 document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">');
 document.write('<link rel="stylesheet" href="/css/live2dv3.init.css">');
@@ -58,7 +58,7 @@ function createL2dv() {
         l2dv = new L2dViewer({
             el: document.getElementById('L2dCanvas'),
             // modelHomePath: './assets/model/',
-            modelHomePath: 'https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/assets/',
+            modelHomePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/assets/',
             model: initModelName,
             // bgImg: '',
             width: 500,
