@@ -58,7 +58,7 @@ function createL2dv() {
         l2dv = new L2dViewer({
             el: document.getElementById('L2dCanvas'),
             // modelHomePath: './assets/model/',
-            modelHomePath: 'https://jsd.cdn.zzko.cn/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/assets/',
+            modelHomePath: 'https://cdn.jsdelivr.net/gh/NavaidX/AzurLaneL2DViewer@n1.0.5/assets/',
             model: initModelName,
             // bgImg: '',
             width: 500,
