@@ -16,6 +16,10 @@ document.write('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-a
 document.write('<link rel="stylesheet" href="/css/live2dv3.init.css">');
 // 其它
 document.write('<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"> </script>');
+document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>');
+document.write('<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>');
+document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>');
+document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>');
 
 // 创建看板娘div
 document.write(
